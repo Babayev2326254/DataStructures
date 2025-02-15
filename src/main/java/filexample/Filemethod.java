@@ -9,6 +9,7 @@ public class Filemethod {
     Scanner scanner = new Scanner(System.in);
 
     public void fileadd() {
+        System.out.println("------------------------");
         System.out.println("Elave edeceyin file adini yazin ?");
         String name = scanner.nextLine();
         File file = new File(name);
