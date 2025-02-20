@@ -128,6 +128,7 @@ public class  FileManager {
             System.out.println("Məlumat fayla yazıldı.");
         } catch (IOException e) {
             e.printStackTrace();
+
         }
     }
 }
