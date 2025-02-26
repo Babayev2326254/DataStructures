@@ -18,5 +18,13 @@ public class CityController {
         cityService.addCIty(city);
     }
 
+    public void cityAll() {
+        cityService.allCity();
+    }
+
+//    public void cityTrueFalse(City city){
+//        cityService.cityTrueFalse(city);
+//    }
+
 
 }
