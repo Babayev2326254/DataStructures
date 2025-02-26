@@ -12,6 +12,19 @@ public class CityDao {
         return cityList.get(id);
     }
 
+
+//    public String cityName(City city) {
+//        return city.getName();
+//    }
+//
+//    public void cityTrueFalse(City city) {
+//
+//    }
+
+    public int citylistlengt() {
+        return cityList.toArray().length;
+    }
+
     public void cityadd(City city) {
         cityList.add(city);
     }
